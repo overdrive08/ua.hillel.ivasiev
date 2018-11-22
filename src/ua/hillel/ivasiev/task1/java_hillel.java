@@ -1,30 +1,35 @@
 package ua.hillel.ivasiev.task1;
-
 import java.util.Scanner;
+import java.lang.String;
 
 public class java_hillel {
-    static Scanner scanner;
     public static void main(String[] args) {
+        Scanner user = new Scanner(System.in);
+        System.out.println("Insert the number:");
 
-        String name = "*        * * *\n" +
-                      "*      *\n" +
-                      "*      *\n" +
-                      "*        * *\n" +
-                      "*            *\n" +
-                      "*            *\n" +
-                      "*      * * *";
-        int sim1 = 0;
-        int sim2 = 0;
-        for (char i = 0; i < name.length(); i++) {
-                if (name.charAt(i) == ' '){
-                    sim1++;
-                }
-                if (name.charAt(i) == '*'){
-                    sim2++;
-                }
+        int num = user.nextInt();
+        System.out.println("N = " + num);
+
+        if (num < 0){
+            System.out.println("Error");
+            System.out.println("\n");
+        } else {
+            String binary = Integer.toBinaryString(num);
+            System.out.println("Convert to binary is = " + binary);
+
+            int a =Integer.parseInt(binary);
+            int count = 0;
+            while (a!=0){
+                a %=2;
+                if (a==1);
+                count++;
+                a = a/2;
+                //if (a==0)
+                   //return;
+            }
+
+            System.out.println("Number of units = " + count);
+
         }
-        System.out.println("Пробелов в строке = " + sim1);
-        System.out.println("Символов * в строке = " + sim2);
-        System.out.println(name);
     }
 }

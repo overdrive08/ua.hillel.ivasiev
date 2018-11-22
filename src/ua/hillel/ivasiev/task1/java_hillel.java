@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class java_hillel {
     static Scanner scanner;
     public static void main(String[] args) {
-        var a = 2.0;
+    /*    var a = 2.0;
         var b = 1.1;
         var c = 8;
         var d = 2;
@@ -36,13 +36,31 @@ public class java_hillel {
             for (int j = 0; j < 10; j++)
                 System.out.print(mas2d[i][j] + "\t" + " ");
             System.out.println();
+        }*/
+        String name = new String  ("*        * * *\n" +
+                      "*      *\n" +
+                      "*      *\n" +
+                      "*        * *\n" +
+                      "*            *\n" +
+                      "*            *\n" +
+                      "*      * * *");
+        int cnt = 0;
+        int sim1 = 0;
+        int sim2 = 0;
+        for (char i = 0; i < name.length(); i++) {
+            char c = name.charAt(i);
+            //System.out.println(c);
+            cnt++;
+                if (name.charAt(i) == ' '){
+                    sim1++;
+                }
+                if (name.charAt(i) == '*'){
+                    sim2++;
+                }
         }
-        System.out.println("*        * * *\n" +
-                            "*      *\n" +
-                            "*      *\n" +
-                            "*        * *\n" +
-                            "*            *\n" +
-                            "*            *\n" +
-                            "*      * * *");
+        System.out.println("Пробелов в строке = " + sim1);
+        System.out.println("Символов * в строке = " + sim2);
+        //System.out.println(cnt);
+        System.out.println(name);
     }
 }

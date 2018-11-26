@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Lesson4_1 {
     public static void main(String[] args) {
         int n;
+        
         Scanner s = new Scanner(System.in);
         n = s.nextInt() + 2;
         int fib [] = new int[n];

@@ -1,5 +1,5 @@
 // Замена чисел у переменных а и в
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson01;
 
 public class Lesson1_1 {
     public static void main(String[] args) {

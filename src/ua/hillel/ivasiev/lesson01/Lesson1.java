@@ -1,5 +1,5 @@
 /*1. Вывести рандомно массив 10х10 со значениями от 0-100 и свои инициалы*/
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson01;
 
 import java.util.Random;
 import java.util.Scanner;

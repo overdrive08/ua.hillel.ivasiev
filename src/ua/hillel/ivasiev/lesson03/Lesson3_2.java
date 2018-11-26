@@ -2,7 +2,7 @@
 пример 11 (десятичное) = 1011 (двоичное) программа должна вывести 3
 подсказка Integer.toBinaryString
 попробовать выполнить эту задачу без использования перевода в бинарную строку.*/
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson03;
 
 import java.lang.String;
 import java.util.Scanner;

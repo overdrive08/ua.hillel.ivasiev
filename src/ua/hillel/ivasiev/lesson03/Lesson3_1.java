@@ -1,6 +1,6 @@
 /*1. Написать метод считающий сколько в строке встречается определеный символ.
 Посчитать в ваших инициалах из первой задачи сколько пробелов и звездочек.*/
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson03;
 
 import java.util.Scanner;
 

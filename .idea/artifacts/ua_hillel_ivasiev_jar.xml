@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ua.hillel.ivasiev:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Util</output-path>
+    <root id="archive" name="ua.hillel.ivasiev.jar">
+      <element id="library" level="project" name="ua.hillel.ivasiev" />
+      <element id="module-output" name="ua.hillel.ivasiev" />
+    </root>
+  </artifact>
+</component>

@@ -14,6 +14,7 @@ public class Lesson1_1 {
         c = c * d;
         d = c / d;
         c = c / d;
+
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);

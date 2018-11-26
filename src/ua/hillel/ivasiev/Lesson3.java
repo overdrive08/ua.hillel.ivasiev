@@ -1,9 +1,13 @@
-package ua.hillel.ivasiev.task1;
+/*2. Пользователь вводит целое десятичное число, требуется посчитать кольчиство едениц в двоичном предствлении этого числа.
+пример 11 (десятичное) = 1011 (двоичное) программа должна вывести 3
+подсказка Integer.toBinaryString
+попробовать выполнить эту задачу без использования перевода в бинарную строку.*/
+package ua.hillel.ivasiev;
 
-import java.util.Scanner;
 import java.lang.String;
+import java.util.Scanner;
 
-public class java_hillel {
+public class Lesson3 {
     public static void main(String[] args) {
         Scanner user = new Scanner(System.in);
         System.out.println("Insert the number:");
@@ -34,6 +38,8 @@ public class java_hillel {
             count += b;
         }
         return count;
+
+
+
     }
 }
-

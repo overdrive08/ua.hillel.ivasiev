@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ua.hillel.ivasiev">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ua.hillel.ivasiev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

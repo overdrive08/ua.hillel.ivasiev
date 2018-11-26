@@ -7,6 +7,7 @@ public class Lesson1_1 {
         var b = 1.1;
         var c = 8;
         var d = 2;
+
         a = a + b;
         b = a - b;
         a = a - b;

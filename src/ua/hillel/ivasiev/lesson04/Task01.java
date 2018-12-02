@@ -1,8 +1,8 @@
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson04;
 
 import java.util.Scanner;
 
-public class Lesson4_1 {
+public class Task01 {
     public static void main(String[] args){
         System.out.println("Enter data array");
         Scanner input = new Scanner(System.in);

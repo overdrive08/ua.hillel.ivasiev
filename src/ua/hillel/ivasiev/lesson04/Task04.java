@@ -1,11 +1,11 @@
 /*1. Пользователь вводит отсортированный массив чисел и еще одно число. Требуется сформировать новый отсортированый массив
 котрый соостоит из исходного и нового числа.*/
 
-package ua.hillel.ivasiev;
+package ua.hillel.ivasiev.lesson04;
 
 import java.util.Scanner;
 
-public class Lesson4_4 {
+public class Task04 {
     public static void main(String[] args) {
         int n;
 

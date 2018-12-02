@@ -7,7 +7,7 @@ package ua.hillel.ivasiev.lesson03;
 import java.lang.String;
 import java.util.Scanner;
 
-public class Lesson3_2 {
+public class Task02 {
     public static void main(String[] args) {
         Scanner user = new Scanner(System.in);
         System.out.println("Insert the number:");

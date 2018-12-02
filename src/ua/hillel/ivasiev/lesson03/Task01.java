@@ -4,7 +4,7 @@ package ua.hillel.ivasiev.lesson03;
 
 import java.util.Scanner;
 
-public class Lesson3_1 {
+public class Task01 {
     static Scanner scanner;
     public static void main(String[] args) {
 

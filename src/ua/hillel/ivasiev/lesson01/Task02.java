@@ -1,7 +1,7 @@
 // Замена чисел у переменных а и в
 package ua.hillel.ivasiev.lesson01;
 
-public class Lesson1_1 {
+public class Task02 {
     public static void main(String[] args) {
         var a = 2.0;
         var b = 1.1;

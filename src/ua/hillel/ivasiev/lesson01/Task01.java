@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Lesson1 {
+public class Task01 {
         static Scanner scanner;
         public static void main(String[] args) {
 

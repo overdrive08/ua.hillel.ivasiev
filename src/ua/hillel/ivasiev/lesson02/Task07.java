@@ -1,3 +1,5 @@
+/*Найдите среднее арифметическое элементов массива*/
+
 package ua.hillel.ivasiev.lesson02;
 
 public class Task07 {

@@ -1,3 +1,5 @@
+/*Найти сумму элементов массива*/
+
 package ua.hillel.ivasiev.lesson02;
 
 public class Task06 {

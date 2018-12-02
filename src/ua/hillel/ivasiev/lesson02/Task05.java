@@ -1,3 +1,5 @@
+/*Выведите все четные элементы массива*/
+
 package ua.hillel.ivasiev.lesson02;
 
 public class Task05 {

@@ -1,11 +1,10 @@
-/*1. Пользователь вводит отсортированный массив чисел и еще одно число. Требуется сформировать новый отсортированый массив
-котрый соостоит из исходного и нового числа.*/
+/*1. Вывести последовательно числа фибоначи*/
 
 package ua.hillel.ivasiev.lesson04;
 
 import java.util.Scanner;
 
-public class Task04 {
+public class Task05_fibonachi {
     public static void main(String[] args) {
         int n;
 

@@ -27,6 +27,8 @@ public class Task02 {
             System.out.println("sumOfBinaryDigits="+sumOfBinaryDigits);
 
         }
+        //int jj=sumOfBinaryDigits(11);
+        System.out.println(sumOfBinaryDigits(11));
     }
 
     private static int sumOfBinaryDigits(int a) {

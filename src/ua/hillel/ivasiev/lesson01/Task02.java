@@ -1,23 +1,44 @@
-// Замена чисел у переменных а и в
+//Сортировка алгоритмом пузырька
 package ua.hillel.ivasiev.lesson01;
+
+import java.util.Random;
+import java.util.Arrays;
 
 public class Task02 {
     public static void main(String[] args) {
-        var a = 2.0;
-        var b = 1.1;
-        var c = 8;
-        var d = 2;
+        int mas[] = new int[100];
+        Random rand = new Random();
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
-        c = c * d;
-        d = c / d;
-        c = c / d;
+        for (int i = 0; i < 100; i++) {
+            mas [i] = rand.nextInt(100);
+            //System.out.print(mas[i] + "\t" + " ");
+        }
+        System.out.println("The array was populated with random: \n" + Arrays.toString(mas));
+        bubbleSort(mas);
+        System.out.println("After bubble sorting: \n" + Arrays.toString(mas));
+        System.out.println("The first maximum three numbers of the array:");
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
-        System.out.println("c = " + c);
-        System.out.println("d = " + d);
+        for (int i = 0; i < 3; i++){
+            //mas[i] = i;
+            System.out.print(mas[i] + " ");
+        }
+    }
+
+    private static void bubbleSort (int[] mas){
+        int j;
+        boolean flag = true;
+        int temp;
+
+        while (flag) {
+            flag = false;
+            for (j = 0; j < mas.length - 1; j++) {
+                if (mas[j] < mas[j + 1]) {
+                    temp = mas[j];
+                    mas[j] = mas[j + 1];
+                    mas[j + 1] = temp;
+                    flag = true;
+                }
+            }
+        }
     }
 }

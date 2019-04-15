@@ -1,5 +1,6 @@
+//вывести фигуры в виде звездочек
+
 package ua.hillel.ivasiev.lesson01;
-import java.awt.Graphics;
 
 public class Task01 {
     public static void main(String[] args) {
@@ -83,9 +84,9 @@ public class Task01 {
         System.out.println("6.");
 
         for (int i = 0; i <= 3; i++) {
-            System.out.println("********");
+            System.out.println("* * * * * * * *");
             for (int j = 0; j <= 0; j++) {
-                System.out.print(" ********\n");
+                System.out.print(" * * * * * * * *\n");
             }
         }
     }

@@ -4,18 +4,20 @@ package ua.hillel.ivasiev.lesson01;
 
 public class Task01 {
     public static void main(String[] args) {
-        Task01 printer = new Task01();
+        Task01 task = new Task01();
 
-        printSquare();
+        task.printSquare();
         printTriangle();
         printLeftTriagle();
         printRightTriagle();
         printRhumbus();
+        printRhumbus2("*", 5);
         printChessBoard(); // что означает printer.printChessBoard(); ?
     }
 
-    private static void printSquare() {
-        for (int i = 0; i <= 0; i++) {
+    private void printSquare() {
+        for (int i = 0; i <= 0; i++)
+        {
             System.out.println("1.\n" + "********");
             for (int j = 0; j <= 3; j++) {
                 System.out.print("*      *\n");
@@ -30,7 +32,8 @@ public class Task01 {
         for (int i = 0; i < 4; i++)
             System.out.println("   *******".substring(i, 4 + 2 * i)); // решение подсказал интернет)
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++)
+        {
             for (int j = 0; j < 5 - i; j++)
                 System.out.print(" ");
             for (int k = 0; k < (2 * i + 1); k++)
@@ -78,6 +81,54 @@ public class Task01 {
             }
             System.out.println();
         }
+    }
+
+    private static void printRhumbus2(String symbol, int side) {
+        StringBuilder sb = new StringBuilder();
+        System.out.println("5.1");
+
+        int i = 0;
+
+        //Top line
+        for (i = 1; i < side; i++) {
+            sb.append(" ");
+        }
+        sb.append(symbol);
+        sb.append("\n");
+
+        for (i = 1; i < side - 1; i++) {
+            for (int j = 1; j < side - i; j++) {
+                sb.append(" ");
+            }
+            sb.append(symbol);
+
+            for (int k = 1; k <= (i * 2) - 1; k++) {
+                sb.append(" ");
+            }
+            sb.append(symbol);
+            sb.append("\n");
+
+        }
+        for (i = 1; i < side - 2; i++) {
+            for (int j = 5; j > side - (i+1); j--) {
+                sb.append(" ");
+            }
+            sb.append(symbol);
+
+            for (int k = 4; k > (i * 2) - 1; k--) {
+                sb.append(" ");
+            }
+            sb.append(symbol);
+            sb.append("\n");
+
+        }
+        for (i = 1; i < side; i++) {
+            sb.append(" ");
+        }
+        sb.append(symbol);
+        sb.append("\n");
+
+        System.out.println(sb);
     }
 
     private static void printChessBoard() {
